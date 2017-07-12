@@ -1,0 +1,4 @@
+<h1>Detalhes do Usuario</h1>
+<b><%= @user.name %> - (<%= @user.id %>)</b>
+
+<p><%= link "Voltar", to: users_path(@conn, :index)%></p>
